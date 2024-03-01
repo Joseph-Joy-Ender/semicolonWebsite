@@ -158,20 +158,6 @@
 
 }
 
-
-.covered h1{
-    padding-right: 10rem;
-    text-align: center;
-    margin-top: 10rem;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 42px;
-    /*display: flex;*/
-    align-items: center;
-    letter-spacing: -.02em;
-    color: #1e323f;
-}
-
 .first{
     display: grid;
 }
@@ -265,162 +251,11 @@
 
 }
 
-.image-content2{
-    display: grid;
-    row-gap: 5px;
-}
-
-.card-image2{
-    position: relative;
-    width: 70px;
-    background-color: #FFF;
-    padding: 3px;
-
-}
-
-.card-image2 .card-img2{
-    height: 27%;
-    width: 40%;
-    padding-top: 0.9rem;
-
-}
-
-.card-contents{
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-}
-
-.description2{
-    font-size: 1.1rem;
-    font-weight: 500;
-    line-height: 2rem;
-    color: #1e323f;
-}
-
-.card-images2{
-    display: flex;
-
-}
-
-.card2{
-    width: 300px;
-    height: 450px;
-    border-radius: 25px;
-    background-color: #FFF;
-    padding-left: 1.3rem;
-    margin-left: 25.8rem;
-    margin-top: -28rem;
-    display: flex;
-}
-
-.ozifire{
-    height: 85px;
-    width: 85px;
-    margin-top: -2rem;
-}
-
-.card-img-twitHandle{
-    padding-left: 1rem;
-    padding-top: -3rem;
-}
-
-.twitterName2{
-    color: #1e323f;
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 30px;
-    margin-top: -1rem;
-}
-
-.handle2{
-    padding-top: 1rem;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #1e323f;
-    margin-top: -1rem;
-}
-
-.card3{
-    width: 300px;
-    height: 450px;
-    border-radius: 25px;
-    background-color: #FFF;
-    padding-left: 1.3rem;
-    margin-left: 48rem;
-    margin-top: -28rem;
-    display: flex;
-}
-
-.image-content3{
-    display: grid;
-    row-gap: 5px;
-    margin: 0;
-}
-
-.card-image3{
-    position: relative;
-    width: 120px;
-    background-color: #FFF;
-    padding: 3px;
-}
-
-.card-image3 .card-img3{
-    height: 27%;
-    width: 25%;
-    padding-top: 0.9rem;
-}
-
-.card-contents3{
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-}
-
-.description3 {
-    font-size: 1.1rem;
-    font-weight: 500;
-    line-height: 2rem;
-    color: #1e323f;
-    padding-bottom: 5rem;
-}
-
-.card-images3{
-    display: flex;
-    padding-left: 1rem;
-    margin-top: -7rem;
-    height: 5rem;
-
-}
-.card-img-twitHandle2{
-    padding-left: 1rem;
-}
-
-.twitterName3{
-    color: #1e323f;
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 30px;
-    font-style: normal;
-}
-
-.handle3{
-    padding-top: 1rem;
-    font-weight: 100;
-    font-size: 15px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #1e323f;
-    margin-top: -1rem;
-}
 
 .market{
     padding-left: 10rem;
     margin-top: 5rem;
+    width: 70px;
 }
 
 .line{
@@ -428,6 +263,58 @@
     margin-left: 14rem;
     margin-top: -3rem;
     font-weight: 300;
-    font-size: 1rem;
-    border: 2px solid blue;
+    font-size: 1.1rem;
 }
+
+.covered h1{
+    padding-right: 10rem;
+    text-align: center;
+    margin-top: 10rem;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    align-items: center;
+    letter-spacing: -.02em;
+    color: #1e323f;
+}
+
+.marketReady{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    display: flex;
+}
+
+.curriculum{
+    display: flex;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    color: #960c0c;
+    margin-top: 0.9rem;
+    margin-left: 10rem;
+    gap: 10rem;
+}
+
+.curriculumParagraph{
+    display: flex;
+    gap: 9rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 30px;
+    color: #1e323f;
+
+}
+
+/*.marketReadyPara{*/
+/*    margin-top: 1rem;*/
+/*    */
+/*}*/
+
+/*.marketReadyCurriculum{*/
+/*    font-weight: 600;*/
+/*    font-size: 24px;*/
+/*    line-height: 10px;*/
+/*    color: #960c0c;*/
+/*}*/
